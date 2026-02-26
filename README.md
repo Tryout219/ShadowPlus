@@ -1,13 +1,10 @@
-# Shadow(影子) 🌍
+# ShadowPlus(影子) 🌍
 
 ![Android](https://img.shields.io/badge/Android-10%2B-green.svg)
 ![LSPosed](https://img.shields.io/badge/LSPosed-Module-blue.svg)
 ![License](https://img.shields.io/badge/License-GPL%20v3.0-orange.svg)
 
-推荐使用 JS 版，如果不想注册高德账号，继续使用 1.0 版本。
-### 📥 [点击下载最新版 JS](https://github.com/Qeccentric/GlobalTraveling/releases/latest)
-### 📥 [ 蓝奏云 支持填入KEY 密码:4onp](https://wwaon.lanzn.com/iqUY13h9prwj)
-**Shadow** 是一款基于 **LSPosed** 框架的 Android 系统级虚拟定位与环境伪装模块。
+**ShadowPlus** 是一款基于 **LSPosed** 框架的 Android 系统级虚拟定位与环境伪装模块。
 
 不同于传统的 Mock Location（模拟位置），本项目采用 **系统层 Hook + 底层文件交互** 的方式，能够对系统 GPS、基站信息 (Cell)、Wi-Fi 列表及各大地图 SDK（高德/腾讯）、GMS进行全维度的位置模拟。
 
@@ -24,6 +21,7 @@
 本项目已在以下设备/系统版本上测试通过，理论上支持 Android 10 - 16：
 | 设备型号 | Android 版本 | 系统 UI | 测试结果 |
 | **OnePlus Ace 3V** | **Android 16**| ColorOS 16 | ✅ 完美运行 |
+| **OnePlus 13** | **Android 16**| ColorOS 16 | ✅ 完美运行 |
 | **Xiaomi 11 Pro** | **Android 13** | MIUI 14 | ✅ 完美运行 |
 
 ---
@@ -51,9 +49,9 @@
 *   (可选) 建议配合 **Shamiko** 和 **Hide My Applist** 使用，以隐藏 Root 环境。
 
 ### 2. 安装与激活
-1.  下载并安装 `Shadow.apk`。
+1.  下载并安装 `ShadowPlus.apk`。
 2.  打开 App，授予 **Root 权限** 和 **存储权限**。
-3.  打开 **LSPosed 管理器**，找到“Shadow”模块。
+3.  打开 **LSPosed 管理器**，找到“ShadowPlus”模块。
 4.  **勾选作用域**：
     *   **推荐**：勾选所有需要模拟的目标应用（如：高德地图、腾讯地图、企业微信、钉钉等）。
     *   **可选**：勾选“系统框架 (System Framework)”。
@@ -85,6 +83,3 @@
 *   ✅ 如果您修改了源代码并发布了新的版本（无论是否收费），您 **必须** 开源您的修改部分，并继续沿用 GPLv3 协议。
 *   🚫 **禁止将本项目闭源商用**。
 
----
-
-**Made with ❤️ by coolapk@堪堪sqr**
