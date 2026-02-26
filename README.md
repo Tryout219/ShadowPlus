@@ -19,6 +19,7 @@
 ## ✅ 已验证机型 (Verified Devices)
 
 本项目已在以下设备/系统版本上测试通过，理论上支持 Android 10 - 16：
+
 | 设备型号 | Android 版本 | 系统 UI | 测试结果 |
 
 | **OnePlus Ace 3V** | **Android 16**| ColorOS 16 | ✅ 完美运行 |
